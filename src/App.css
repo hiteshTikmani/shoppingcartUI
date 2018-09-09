@@ -1,0 +1,172 @@
+.App{
+    margin: 11px;
+}
+.imgclass img{
+    width : 20rem;
+}
+.product{
+    display:flex;
+}
+.product a{
+    display: inline;
+    color: darkgrey;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.details {
+    padding: 10px;
+
+}
+input{
+    width: 40px;
+}
+.promocode{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid grey;
+}
+.promocode input{
+    width:120px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.promocode button{
+    padding: 5px;
+}
+
+.PopupDesign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #0000005c;
+    position: absolute;
+    top: 0;
+}
+.billing > div{
+    margin-top: 20px;
+}
+
+.billing :nth-child(4) {
+    border-top: 5px solid darkgrey;
+    border-bottom: 5px solid darkgrey
+}
+
+.PopupDesign > div{display: flex;
+    justify-content: space-evenly;    
+    height: 20%;
+    width: 19%;
+    background: white;
+    align-items: center;
+}
+.inputGiven {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Popup_content Select, .Popup_content input {
+    padding: 2px;
+    width: 40%;
+    height: 30px
+}
+.Popup_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.PopupDesign img{
+    height: 250px;
+}
+
+.Edit_btn{
+    height: 40px;
+    width: 150px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.bill_part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cart{
+    width: 80%;
+    margin-left: 10%;
+    background: white;
+}
+.cart-total-right{
+    width:50%;
+}
+.Cart h1{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.bill_part :nth-child(2){
+    font-size: 30px;
+}
+
+.bill_part :nth-child(1){
+    font-size: 20px;
+}
+
+.Checkout_btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Checkout_btn :nth-child(1){
+    font-size: 17px;
+    color: darkgrey;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Checkout_btn :nth-child(2) {
+    font-size: 25px;
+    height: 36px;
+    width: 150px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+#root{
+    position: absolute;
+    top: -20px;
+    width: 100%;
+}
+.cart-total{
+    display: flex;
+    justify-content: space-between; 
+    background: white;
+    border-top: 10px solid grey;
+    padding:30px;
+}
+body{
+    background: grey;
+}
+.cart-total-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.apply_btn{
+    padding: 8px;
+    background: #eee;
+    cursor: pointer;
+}
+.code {
+    display: flex;
+    align-items: center;
+}
