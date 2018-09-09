@@ -169,4 +169,9 @@ body{
 .code {
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
+}
+
+.Cart span {
+    padding-left: 40px;
 }

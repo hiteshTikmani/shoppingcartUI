@@ -20,7 +20,7 @@ const CartTotal = (props) => {
             <div className="cart-total-right">
                 <div className="promocode">
                     <div >ENTER PROMOTION CODE OR GIFT CARD</div>
-                    <div className='code' ><input type="text" style={{ padding: '15px' }} id="a" value="AJ10" />
+                    <div className='code' ><input type="text" style={{ padding: '6px' }} id="a" value="AJ10" />
                         <div className="apply_btn">APPLY</div>
                     </div>
                 </div>
