@@ -43,7 +43,7 @@ class Popup extends Component {
                     </div>
                 </div>
                 <div>
-                    <img src={this.props.singleproduct.imageURL} />
+                    <img src={this.props.singleproduct.imageURL} alt='' />
                 </div>
             </div>
         )

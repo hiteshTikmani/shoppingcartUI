@@ -7,15 +7,11 @@ import Popup from './popup';
 
 class Cart extends Component {
     componentWillReceiveProps(nextprops){
-        if (this.props.popup != nextprops.popup){
+        if (this.props.popup !== nextprops.popup){
         this.setState({popup:true})
-        console.log("ayayay");
-        
         }
     }
     closePopup(){
-        console.log("falllllllse ");
-        
         this.setState({popup:false})
     }
     state={
@@ -23,14 +19,13 @@ class Cart extends Component {
     }
     render() {
         const popup = this.props.popup;
-        console.log("oooo",this.state.popup);
         const display = (popup) => {
-            if (this.state.popup != false) {
+            if (this.state.popup !== false) {
                 return (<Popup closePopup={this.closePopup.bind(this)}/>)
             }
         }
         const items = this.props.products.map((itemObj) => {
-            return (<CartItem data={itemObj} />)
+            return (<CartItem data={itemObj} key={Math.random()}/>)
         }
         )
         return (

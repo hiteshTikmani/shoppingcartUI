@@ -27,12 +27,12 @@ export default function (state = initialState, action ) {
         return [...state];
         case 'Details_Changed':{
             var arrayDetails = [...state];
-            for (var i in arrayDetails) {
-                if (arrayDetails[i].name === action.payload[1]) break;
+            for (var x in arrayDetails) {
+                if (arrayDetails[x].name === action.payload[1]) break;
                 else continue;
             }
-            arrayDetails[i].size = action.payload[0].sizeValue;
-            arrayDetails[i].qty = action.payload[0].qtyValue;
+            arrayDetails[x].size = action.payload[0].sizeValue;
+            arrayDetails[x].qty = action.payload[0].qtyValue;
             return arrayDetails;
         }
         default:

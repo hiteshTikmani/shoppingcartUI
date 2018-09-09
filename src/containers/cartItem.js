@@ -7,7 +7,6 @@ import {bindActionCreators} from 'redux';
 class CartItem extends Component {
 
     render() {
-
         return (
             <tr className='productRow'>
                 <td >
